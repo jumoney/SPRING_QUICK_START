@@ -24,7 +24,7 @@ public class InsertBoardController implements Controller{
 		
 		// 2. DB 연동 처리
 		BoardVO vo = new BoardVO();
-		vo.setTitle(title);
+		vo.setTitle(title); 
 		vo.setWriter(writer);
 		vo.setContent(content);
 		
